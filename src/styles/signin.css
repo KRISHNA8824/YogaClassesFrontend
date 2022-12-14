@@ -1,0 +1,88 @@
+.page_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m-5-auto {
+  margin: 5rem auto;
+  text-align: center;
+}
+
+/***    Login Page     ***/
+h2 {
+  font-weight: 900;
+  font-size: 20px;
+  margin: 5px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.error {
+  color: red;
+}
+
+form {
+  display: inline-block;
+  background: #8fb7dcbd;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 2rem 0 1rem 0;
+  box-shadow: 8px 9px 10px 9px rgb(207, 207, 207);
+}
+
+form label {
+  float: left;
+  font-size: 0.9rem;
+  margin: 0;
+  /* padding: 0; */
+  padding-left: 5px;
+}
+
+.right-label {
+  float: right;
+  cursor: pointer;
+}
+
+input {
+  width: 15rem;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid #a8a8a8;
+  
+}
+
+#sub_btn {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 15px;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 12px;
+}
+
+#sub_btn:hover {
+  border-radius: 12px;
+  background: #333;
+  transition: all 0.5s;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/***    Register Page     ***/
+
+form span {
+  font-size: 0.8rem;
+}

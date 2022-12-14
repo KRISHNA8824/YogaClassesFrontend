@@ -1,0 +1,42 @@
+.payment {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+#sub_btn {
+  display: block;
+  width: 80px;
+  padding: 8px;
+  font-size: 15px;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 3px;
+  border-radius: 10px;
+}
+
+#sub_btn:hover {
+  background: #333;
+  transition: all 0.5s;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.aa {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
