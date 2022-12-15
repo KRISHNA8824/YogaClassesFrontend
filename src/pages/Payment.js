@@ -13,7 +13,7 @@ export default function DashBoard() {
   const { user, login } = useAuth();
   // http://localhost:3001
   const updatePaymentStatus = (status)=> {
-    Axios.put("http://localhost:3001/api/updatePaymentStatus", {
+    Axios.put("https://glorious-galoshes-newt.cyclic.app/api/updatePaymentStatus", {
       UId: user.UId,
       PaymentStatus: status,
     });
@@ -31,7 +31,7 @@ export default function DashBoard() {
     // console.log(user.UId);
 
     navigate('/SelectSlot', { replace: true });
-    alert("you clicked me");
+    alert("Payent Successful");
   }
 
 
