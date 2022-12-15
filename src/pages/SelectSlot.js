@@ -17,7 +17,7 @@ export default function Orders() {
 
 
   const updateSlot = (Slot)=> {
-    Axios.put("http://localhost:3001/api/updateSlot", {
+    Axios.put("https://glorious-galoshes-newt.cyclic.app/api/updateSlot", {
       UId: user.UId,
       Slot: Slot,
     });
